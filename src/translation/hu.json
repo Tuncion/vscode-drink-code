@@ -1,0 +1,31 @@
+{
+    "drinkWaterMessage": "Kiváló munka! Megittad a vizet!",
+    "drinkStatusBarItemTooltip": "Utolsó ivás ideje: {Time}\n\n➡️ Kattints a víziváshoz",
+    "drinkStatusBarItemTooltipNever": "Még nem",
+    "drinkReminderButton": {
+        "drank": "💧 Víz megivva",
+        "skip": "➡️ Kihagyás"
+    },
+    "drinkStates": {
+        "0": {
+            "statusBar": "💧 Hidratált",
+            "reminderText": "Hé, ideje vizet inni! 💦"
+        },
+        "1": {
+            "statusBar": "💦 Igyál",
+            "reminderText": "Valóban szükséged van hidratálásra! Igyál most egy kis vizet! 🚰"
+        },
+        "2": {
+            "statusBar": "🚰 Igyál vizet",
+            "reminderText": "Igyál vizet azonnal! ⚠️💧"
+        },
+        "3": {
+            "statusBar": "⚠️ Igyál most",
+            "reminderText": "Igyál vizet most! ⚠️💧"
+        },
+        "4": {
+            "statusBar": "🚨 Figyelmeztetés: Igyál most",
+            "reminderText": "Dehidratált vagy! Igyál most! 🚨🥵"
+        }
+    }
+}

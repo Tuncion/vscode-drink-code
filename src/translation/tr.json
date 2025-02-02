@@ -1,0 +1,31 @@
+{
+    "drinkWaterMessage": "Harika iş! Su içtiniz!",
+    "drinkStatusBarItemTooltip": "Son içtiğiniz zaman: {Time}\n\n➡️ İçmek için tıklayın",
+    "drinkStatusBarItemTooltipNever": "Henüz değil",
+    "drinkReminderButton": {
+        "drank": "💧 Su içildi",
+        "skip": "➡️ Atla"
+    },
+    "drinkStates": {
+        "0": {
+            "statusBar": "💧 Susuzluk giderildi",
+            "reminderText": "Hey, su içme zamanı! 💦"
+        },
+        "1": {
+            "statusBar": "💦 İç",
+            "reminderText": "Gerçekten su içmen gerekiyor! Şimdi biraz su al! 🚰"
+        },
+        "2": {
+            "statusBar": "🚰 Su al",
+            "reminderText": "Hemen su al! ⚠️💧"
+        },
+        "3": {
+            "statusBar": "⚠️ Şimdi iç",
+            "reminderText": "Şimdi su iç! ⚠️💧"
+        },
+        "4": {
+            "statusBar": "🚨 Uyarı: ŞİMDİ İÇ",
+            "reminderText": "Susuz kaldınız! ŞİMDİ İÇİN! 🚨🥵"
+        }
+    }
+}

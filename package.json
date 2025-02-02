@@ -1,0 +1,81 @@
+{
+  "name": "drink-code",
+  "displayName": "Drink Code - Smart water reminder",
+  "description": "Stay on top of your hydration game while you code! \\\"Drink Code\\\" helps developers maintain their health by sending gentle reminders to drink water during coding sessions.",
+  "publisher": "ViorityGroup",
+	"homepage": "https://tuncion.de",
+  "icon": "resources/icon.png",
+  "version": "1.0.0",
+  "license": "gpl-3.0",
+  "repository": "https://github.com/Tuncion/vscode-drink-code",
+
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "drink-code.drinkWater",
+        "title": "Drink Water"
+      }
+    ],
+    "configuration": {
+      "title": "Drink Code",
+      "properties": {
+        "drink-code.drinkInterval": {
+          "type": "number",
+          "default": -1,
+          "description": "Interval in milliseconds to remind you to drink water"
+        },
+        "drink-code.drinkSkipFactor": {
+          "type": "number",
+          "default": -1,
+          "description": "Factor to skip the next reminder (e.g. 2 means the interval will be halved every time you skip)"
+        },
+        "drink-code.drinkReminderTimeout": {
+          "type": "number",
+          "default": -1,
+          "description": "Timeout in milliseconds to dismiss the reminder"
+        },
+        "drink-code.drinkMinInterval": {
+          "type": "number",
+          "default": -1,
+          "description": "Minimum interval in milliseconds to remind you to drink water (used for decreasing the interval)"
+        },
+        "drink-code.drinkStates": {
+          "type": "array",
+          "default": [],
+          "description": "States to remind you to drink water"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test",
+    "translation": "copyfiles -u 1 src/translation/*.json out"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.96.0",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "copyfiles": "^2.4.1",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3"
+  }
+}

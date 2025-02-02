@@ -1,0 +1,31 @@
+{
+    "drinkWaterMessage": "Ottimo lavoro! Hai bevuto dell'acqua!",
+    "drinkStatusBarItemTooltip": "Ultima volta che hai bevuto: {Time}\n\n➡️ Clicca per bere",
+    "drinkStatusBarItemTooltipNever": "Non ancora",
+    "drinkReminderButton": {
+        "drank": "💧 Acqua bevuta",
+        "skip": "➡️ Salta"
+    },
+    "drinkStates": {
+        "0": {
+            "statusBar": "💧 Idratato",
+            "reminderText": "Ehi, è ora di bere acqua! 💦"
+        },
+        "1": {
+            "statusBar": "💦 Bevi",
+            "reminderText": "Hai davvero bisogno di idratarti! Prendi dell'acqua ora! 🚰"
+        },
+        "2": {
+            "statusBar": "🚰 Prendi acqua",
+            "reminderText": "Prendi dell'acqua immediatamente! ⚠️💧"
+        },
+        "3": {
+            "statusBar": "⚠️ Bevi ora",
+            "reminderText": "Bevi acqua ora! ⚠️💧"
+        },
+        "4": {
+            "statusBar": "🚨 Avviso: BEVI ORA",
+            "reminderText": "Sei disidratato! BEVI ORA! 🚨🥵"
+        }
+    }
+}

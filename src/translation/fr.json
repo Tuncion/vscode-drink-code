@@ -1,0 +1,31 @@
+{
+    "drinkWaterMessage": "Bien joué ! Vous avez bu de l'eau !",
+    "drinkStatusBarItemTooltip": "Dernière fois que vous avez bu : {Time}\n\n➡️ Cliquez pour boire",
+    "drinkStatusBarItemTooltipNever": "Pas encore",
+    "drinkReminderButton": {
+        "drank": "💧 Eau bue",
+        "skip": "➡️ Passer"
+    },
+    "drinkStates": {
+        "0": {
+            "statusBar": "💧 Hydraté",
+            "reminderText": "Hé, il est temps de boire de l'eau ! 💦"
+        },
+        "1": {
+            "statusBar": "💦 Boire",
+            "reminderText": "Vous devez vraiment vous hydrater ! Prenez de l'eau maintenant ! 🚰"
+        },
+        "2": {
+            "statusBar": "🚰 Prendre de l'eau",
+            "reminderText": "Prenez de l'eau immédiatement ! ⚠️💧"
+        },
+        "3": {
+            "statusBar": "⚠️ Boire maintenant",
+            "reminderText": "Buvez de l'eau maintenant ! ⚠️💧"
+        },
+        "4": {
+            "statusBar": "🚨 Alerte : BOIRE MAINTENANT",
+            "reminderText": "Vous êtes déshydraté ! BUVEZ MAINTENANT ! 🚨🥵"
+        }
+    }
+}

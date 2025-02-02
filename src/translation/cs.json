@@ -1,0 +1,31 @@
+{
+    "drinkWaterMessage": "Skvělá práce! Pili jste vodu!",
+    "drinkStatusBarItemTooltip": "Poslední doba, kdy jste pili: {Time}\n\n➡️ Klikněte pro pití",
+    "drinkStatusBarItemTooltipNever": "Ještě ne",
+    "drinkReminderButton": {
+        "drank": "💧 Voda vypita",
+        "skip": "➡️ Přeskočit"
+    },
+    "drinkStates": {
+        "0": {
+            "statusBar": "💧 Hydratováno",
+            "reminderText": "Hej, je čas pít vodu! 💦"
+        },
+        "1": {
+            "statusBar": "💦 Pít",
+            "reminderText": "Opravu potřebujete hydrataci! Vezměte si trochu vody teď! 🚰"
+        },
+        "2": {
+            "statusBar": "🚰 Vezměte vodu",
+            "reminderText": "Vezměte si vodu okamžitě! ⚠️💧"
+        },
+        "3": {
+            "statusBar": "⚠️ Pít teď",
+            "reminderText": "Pijte vodu teď! ⚠️💧"
+        },
+        "4": {
+            "statusBar": "🚨 Upozornění: PÍT TEĎ",
+            "reminderText": "Jste dehydratováni! PÍT TEĎ! 🚨🥵"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "drinkWaterMessage": "干得好！你已经喝水了！",
+    "drinkStatusBarItemTooltip": "上次饮水时间：{Time}\n\n➡️ 点击喝水",
+    "drinkStatusBarItemTooltipNever": "尚未",
+    "drinkReminderButton": {
+        "drank": "💧 已喝水",
+        "skip": "➡️ 跳过"
+    },
+    "drinkStates": {
+        "0": {
+            "statusBar": "💧 已补充水分",
+            "reminderText": "嘿，喝水时间到了！💦"
+        },
+        "1": {
+            "statusBar": "💦 喝水",
+            "reminderText": "你真的需要补充水分！现在就喝点水吧！🚰"
+        },
+        "2": {
+            "statusBar": "🚰 拿水",
+            "reminderText": "立即拿水！⚠️💧"
+        },
+        "3": {
+            "statusBar": "⚠️ 现在喝",
+            "reminderText": "现在就喝水！⚠️💧"
+        },
+        "4": {
+            "statusBar": "🚨 警告：现在喝",
+            "reminderText": "你脱水了！现在就喝水！🚨🥵"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "drinkWaterMessage": "Great job! You have drank water!",
+    "drinkStatusBarItemTooltip": "Last Time Drank: {Time}\n\n➡️ Click to drink",
+    "drinkStatusBarItemTooltipNever": "Not Yet",
+    "drinkReminderButton": {
+        "drank": "💧 Drank Water",
+        "skip": "➡️ Skip"
+    },
+    "drinkStates": {
+        "0": {
+            "statusBar": "💧 Hydrated",
+            "reminderText": "Hey, it's time to drink water! 💦"
+        },
+        "1": {
+            "statusBar": "💦 Drink",
+            "reminderText": "You really need to hydrate! Grab some water now! 🚰"
+        },
+        "2": {
+            "statusBar": "🚰 Grab Water",
+            "reminderText": "Grab water immediately! ⚠️💧"
+        },
+        "3": {
+            "statusBar": "⚠️ Drink Now",
+            "reminderText": "Drink water now! ⚠️💧"
+        },
+        "4": {
+            "statusBar": "🚨 Alert: DRINK NOW",
+            "reminderText": "You are dehydrated! DRINK NOW! 🚨🥵"
+        }
+    }
+}
