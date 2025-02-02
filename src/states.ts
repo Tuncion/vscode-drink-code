@@ -82,9 +82,6 @@ export class DrinkReminder {
                     this.context.globalState.update('lastDrinkDate', null);
                     this.updateStatusBarTooltip();
                 }
-            } else {
-                this.context.globalState.update('lastDrinkDate', null);
-                this.updateStatusBarTooltip();
             }
         };
 
