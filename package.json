@@ -1,14 +1,13 @@
 {
   "name": "drink-code",
   "displayName": "Drink Code - Smart water reminder",
-  "description": "Stay on top of your hydration game while you code! \\\"Drink Code\\\" helps developers maintain their health by sending gentle reminders to drink water during coding sessions.",
+  "description": "Stay on top of your hydration game while you code! \"Drink Code\" helps developers maintain their health by sending gentle reminders to drink water during coding sessions.",
   "publisher": "ViorityGroup",
-	"homepage": "https://tuncion.de",
   "icon": "resources/icon.png",
+  "homepage": "https://tuncion.de",
   "version": "1.0.0",
   "license": "gpl-3.0",
   "repository": "https://github.com/Tuncion/vscode-drink-code",
-
   "engines": {
     "vscode": "^1.96.0"
   },
