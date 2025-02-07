@@ -11,15 +11,15 @@
 
 ### 🏠 [Homepage](https://tuncion.de)
 
-## Prerequisites
+## ✨ Demo
+**Drink Reminder Notify:**\
+![Drink Notify](https://i.imgur.com/iUcTFlA.png)
 
-- vscode ^1.96.0
+**Drink Status Bar:**\
+![Drink Status Bar - Hydrated](https://i.imgur.com/dqbs8ND.png)\
+![Drink Status Bar - DRINK NOW](https://i.imgur.com/ooQaILM.png)
 
-## Install
-
-```sh
-npm install
-```
+_... more states available!_
 
 ## Languages
 
@@ -38,6 +38,26 @@ npm install
 - 🇹🇷 Turkish (tr)
 - 🇨🇳 Chinese (Simplified) (zh-cn)
 - 🇹🇼 Chinese (Traditional) (zh-tw)
+
+### ⚡ Available Configuration
+
+| Configuration Key               | Description                                                                                      | Default Value    | Example                                                                 |
+|----------------------------------|--------------------------------------------------------------------------------------------------|------------------|-------------------------------------------------------------------------|
+| `drink-code.drinkInterval`       | Interval in milliseconds to remind you to drink water.                                           | `30 * 60 * 1000` (30 minutes)  | `drink-code.drinkInterval: 1800000`                                     |
+| `drink-code.drinkSkipFactor`     | Factor to skip the next reminder (e.g. 2 means the interval will be halved every time you skip). | `2`              | `drink-code.drinkSkipFactor: 2`                                         |
+| `drink-code.drinkReminderTimeout`| Timeout in milliseconds to dismiss the reminder.                                                 | `2 * 60 * 1000` (2 minutes) | `drink-code.drinkReminderTimeout: 120000`                               |
+| `drink-code.drinkMinInterval`    | Minimum interval in milliseconds to remind you to drink water (used for decreasing the interval).| `5 * 60 * 1000` (5 minutes) | `drink-code.drinkMinInterval: 300000`                                   |
+| `drink-code.drinkStates`         | States to remind you to drink water. Each state has a `statusBar` and `reminderText`. If only a subset of states is defined (e.g., only states 0 and 1), the remaining states (2, 3, 4, etc.) will use the default settings. | `[]` (Default uses built-in states) | `drink-code.drinkStates: [ { "statusBar": "Hydrated", "reminderText": "You are hydrated" }, { "statusBar": "Drink", "reminderText": "Time to drink" } ]` |
+
+## Prerequisites
+
+- vscode ^1.96.0
+
+## Install
+
+```sh
+npm install
+```
 
 ## Author
 
