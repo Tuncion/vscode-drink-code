@@ -39,7 +39,7 @@ _... more states available!_
 - 🇨🇳 Chinese (Simplified) (zh-cn)
 - 🇹🇼 Chinese (Traditional) (zh-tw)
 
-### ⚡ Available Configuration
+## ⚡ Available Configuration
 
 | Configuration Key               | Description                                                                                      | Default Value    | Example                                                                 |
 |----------------------------------|--------------------------------------------------------------------------------------------------|------------------|-------------------------------------------------------------------------|
